@@ -118,7 +118,8 @@ export const RequiredLayout: FC<AuthGuardProps> = () => {
 
 
   return (
-      <AuthProvider>
+
+    <AuthProvider>
         <Routes>
           <Route  path="/login" element={<PublicPage />} />
           <Route
